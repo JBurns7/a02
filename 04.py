@@ -38,5 +38,21 @@ Tests:
 
 def mean_weight():
 
+    mean = 0
+
+    amount = int(input("How many weights? "))
+
+    weights = int(input("Enter a weight: "))
+
+    for i in range(amount):
+        mean = mean + weights
+        mean = mean // amount
+    print(mean)
+        
+
+    
+
+    
+
 
 
