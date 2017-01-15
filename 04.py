@@ -37,22 +37,27 @@ Tests:
 """
 
 def mean_weight():
-
+    
     mean = 0
-
+    
     amount = int(input("How many weights? "))
-
-    weights = int(input("Enter a weight: "))
-
-    for i in range(amount):
-        mean = mean + weights
-        mean = mean // amount
-    print(mean)
-        
-
     
-
+    for i in range(0, amount):
+         weights = int(input("Enter the weights:" )
+         mean = mean + weights
+                       
+    mean = mean // amount
+    round(mean, 2)
     
+    print("The average weight is:", mean)
+
+
+
+
+
+
+
+
 
 
 
